@@ -1,10 +1,14 @@
 # **Epistemic Theory Extractor (The "Meat Filter" Analyzer)**
 
+![pic](pic.png)
+
 **PerceptionLab / Helsinki**  
 An autonomous, epistemic AI tool designed to algebraically extract the linear physical transfer function mapping electrical brain activity (EEG) to acoustic speech (Voice).  
 Unlike standard Deep Learning models that rely on gradient descent and black-box neural networks to guess relationships, this tool uses **Takens Delay Embedding** and **SINDy (Sparse Identification of Nonlinear Dynamics)** to algebraically deduce the explicit, human-readable laws of physics governing the acoustic resonance of the human skull and electrode hardware.
 
 ## **🧠 The Theory: Epistemic Signal Processing**
+
+![spectra](spectra.png)
 
 When analyzing simultaneous EEG and audio recordings during speech, the human head, skull, and electrode cables act as a physical, passive acoustic resonator (the "microphonic effect").  
 To extract the exact physical shape of this resonator without hallucinating noise, this tool executes the following pipeline:
